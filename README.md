@@ -36,7 +36,7 @@ To resize the image of height and width 400 and 500 respectively add these query
 http://localhost:3000/editImage?url=http://localhost:3000/editImage?url=https://dqktdb1dhykn6.cloudfront.net/357882-TLRKytH3h.jpg&width=500&height=400
 ```
 
-Just to resive the width make request to (similarly for Height):
+To resize the width make a request to (similarly for Height):
 
 ```
 http://localhost:3000/editImage?url=http://localhost:3000/editImage?url=https://dqktdb1dhykn6.cloudfront.net/357882-TLRKytH3h.jpg&width=500
@@ -55,7 +55,7 @@ http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/to
 
 ```
 
-To Change the format of the image, add parameter format=png as follows:
+To Change the format of the image, add the parameter format=png as follows:
 
 ```
 http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg&format=png
