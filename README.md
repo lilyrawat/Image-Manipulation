@@ -36,13 +36,13 @@ To resize the image of height and width 400 and 500 respectively add these query
 http://localhost:3000/editImage?url=http://localhost:3000/editImage?url=https://dqktdb1dhykn6.cloudfront.net/357882-TLRKytH3h.jpg&width=500&height=400
 ```
 
-Just to resive the width make request to (similarly for Height):
+To resize the width only, make request to (similarly for Height):
 
 ```
 http://localhost:3000/editImage?url=http://localhost:3000/editImage?url=https://dqktdb1dhykn6.cloudfront.net/357882-TLRKytH3h.jpg&width=500
 ```
 
-To crop the Image add the query parameter crop= true as follows:
+To crop the Image add the query parameter crop=true as follows:
 
 ```
 http://localhost:3000/editImage?url=https://dqktdb1dhykn6.cloudfront.net/357882-TLRKytH3h.jpg&width=500&height=800&left=150&top=70&crop=true
@@ -52,7 +52,6 @@ To Convert the image into black and white, add parameter bw=true as follows:
 
 ```
 http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg&bw=true
-
 ```
 
 To Change the format of the image, add parameter format=png as follows:
