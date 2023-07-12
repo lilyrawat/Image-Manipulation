@@ -54,7 +54,7 @@ To Convert the image into black and white, add parameter bw=true as follows:
 http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg&bw=true
 ```
 
-To Change the format of the image, add parameter format=png as follows:
+To Change the format of the image, add the parameter format=png as follows:
 
 ```
 http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg&format=png
