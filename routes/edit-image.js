@@ -72,9 +72,13 @@ router.get("/", async (req, res) => {
     // res.send(manipulatedImage);
 
     //To save file
-    await src.toFile("images/edited-image.jpeg");
-
-    res.download("images/edited-image.jpeg");
+    if (format) {
+      await src.toFile(`images/edited-image.${format}`);
+      res.download(`images/edited-image.${format}`);
+    } else {
+      await src.toFile(`images/edited-image.jpeg`);
+      res.download(`images/edited-image.jpeg`);
+    }
   } catch (err) {
     console.log(err);
     res.status(500).json({

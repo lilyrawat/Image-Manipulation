@@ -16,7 +16,16 @@ GET http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/1
 GET http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg&bw=true
 
 ###
+GET http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg&format=png
+
+###
+//Invalid URL
 GET http://localhost:3000/editImage?url=invalid-url
 
 ###
+//Width is not a Positive integer
 GET http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg&width=-100
+
+###
+//Height,left not mentioned while cropping
+GET http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg&width=100&top=300&crop=true
