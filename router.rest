@@ -1,0 +1,22 @@
+GET http://localhost:3000/editImage?url=https://dqktdb1dhykn6.cloudfront.net/357882-TLRKytH3h.jpg
+
+###
+GET http://localhost:3000/editImage?url=http://localhost:3000/editImage?url=https://dqktdb1dhykn6.cloudfront.net/357882-TLRKytH3h.jpg&width=500&height=400
+
+###
+GET http://localhost:3000/editImage?url=http://localhost:3000/editImage?url=https://dqktdb1dhykn6.cloudfront.net/357882-TLRKytH3h.jpg&width=500
+
+###
+GET http://localhost:3000/editImage?url=https://dqktdb1dhykn6.cloudfront.net/357882-TLRKytH3h.jpg&width=500&height=800&left=150&top=70&crop=true
+
+###
+GET http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg
+
+###
+GET http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg&bw=true
+
+###
+GET http://localhost:3000/editImage?url=invalid-url
+
+###
+GET http://localhost:3000/editImage?url=https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg&width=-100
